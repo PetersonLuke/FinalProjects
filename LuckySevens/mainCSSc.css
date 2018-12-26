@@ -1,0 +1,42 @@
+/* For the table's caption*/
+caption
+{
+    text-align: center;     /* Centers the text*/
+    margin: auto;           
+    color: black;           /* Sets text color to black*/
+    font-size: 2.0em;       /* Increases the font size */
+    border-top: solid;      /* Adds a border to the top*/
+    padding-top: 10px;      /* Adds padding to top to keep from being cramped*/
+}
+
+/* For the play(submit) button*/
+#submitButton
+{
+    border-width: .2em;     /* Adds a border*/
+    border-color: black;    /* Makes the border black*/
+    margin-bottom: 10px;    /* Adds a margin at top to keep from being cramped*/
+    margin-top: 10px;       /* Adds a margin at the bottom to keep from being cramped*/
+    color: black;           /* Sets the text color to black */
+    font-weight: bold;      /* Sets the font to bold */
+    display: block;         
+    margin-left: 10%;       /* Used to move the button to the right*/
+}
+
+/* Used to deal with the input box*/
+#startingBetVal
+{
+    border-width: .2em;             /* Adds a border*/
+    border-bottom-style: ridge;
+    border-color: black;            /* Makes the border black */
+    color: black;                   /* Makes the text color black*/
+    width: 40%;                     /* Makes the max width 40% of normal*/
+    margin-left: 15px;              /* Used to move the box to the right*/
+}
+
+/* Used to deal with the table*/
+table
+{
+    display: block;      
+    margin-left: auto;
+    margin-right: auto;
+}

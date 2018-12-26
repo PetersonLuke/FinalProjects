@@ -1,0 +1,95 @@
+/*
+Creator: Luke Peterson
+Date created: 12/14/2018
+Date last modified: 12/26/2018
+*/
+
+body 
+{
+    font-family: arial, helvetica, sans-serif;  /* check this maybe keep it so i dont have to spend so much time trying to find a list*/
+    max-width: 900px;                           /*Sets the max width of the body to 900px*/                          
+    margin: auto;                               /*Centers the body on the page*/
+}
+
+header, footer
+{
+    background-color: #1288FB;      /* Sets the background color of the header and footer to a blue color*/
+    color: white;                   /* sets the header and footer text to white*/
+    height: 100%;                  /* increases height of the header and footer by 100 pixels*/
+    text-align: center;             /* Center the texts in the body*/
+    padding: 20px 10px 20px 10px;   /* Adds some padding to the header and footer*/
+}
+
+h1
+{
+    font-size: 2.5em;   /*Increase the font size of H1 tags*/
+    color: white;       /*Change the h1 tags font color to white*/
+}
+
+.mainPage
+{
+    background-color: antiquewhite;     /*Change the background of index.html section.mainpage to antiquewhite */
+}
+
+p
+{
+    max-width: 90%;     /*Adjusts the max width of p tag to keep the text from being squished*/
+    margin: auto;       /*Centers the P tag*/
+}
+
+nav
+{
+    border-top: 2px solid black;     /* Puts a solid black outline above nav section*/
+    border-bottom: 2px solid black;  /* Puts a solid black outline below nav section */
+}
+
+nav a
+{
+    background-color: #3EA0FF;      /* Sets the background color of the links to a blue color*/
+    color: white;                   /* Sets the link text to white*/
+    text-decoration: none;          /* Makes it so a link has no underlined text*/
+    text-align: center;             /* Centers the link text */
+    display: block;                 /* alows for clicking things other than just the text*/
+    margin: 25px;                    /* Adds margin around the link */
+    width: 135px;                    /* Adds width to the background of the link*/
+}
+
+.noneHome
+{
+    padding-bottom: 15px;   /*Makes it so the nav pills are the same size becuase the home icon is a pain*/
+}
+
+nav a:hover /* check this*/
+{
+    font-weight: bold;          /* Makes the text bold when hovered over */
+    background-color: #1288FB;  /* Changes the background color to a darker blue on hover*/
+}
+
+nav a:visited
+{
+    color: whitesmoke; /* Changes the color of visited page to a whiresmoke color*/
+}
+
+.material-icons
+{
+    position: relative;
+    top: 4px;         /*Adjusts the icons location by 5 pixels down*/         /*Adjust the icons location by 153 pixels from the top */
+}
+
+.carousel-inner
+{
+    height: 80px;   /*Adjusts the hight of the inner content so that the text is alowed to take up more space.  This is to keep the carousel from expanding when one text is larger than others*/
+}
+
+#myCarousel 
+{
+    text-align: center;             /*Centers the text in the carousel*/
+    background-color: #3EA0FF;      /*Sets the color to a blueish*/
+    padding-top: 25px;              /*Adds padding to the top of the carousel*/
+    padding-bottom: 25px;           /*Adds padding to the bottom of the carousel*/
+}
+
+#carouselText
+{
+    color: white;   /*Sets the carousel text to white*/
+}
